@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './いしけん2_500.jpg';
+import { Counter } from './feature/counter/Counter';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Counter />
     </div>
   );
 }
